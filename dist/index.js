@@ -11,7 +11,7 @@ function onSearchChange(value) {
     hideElement('error');
     debounceTimer = setTimeout(function () {
       document.getElementById('loading').style.display = 'inline-block';
-      fetch('https://api.got.show/api/characters/locations/' + value).then(function (response) {
+      window.fetch('https://api.got.show/api/characters/locations/' + value).then(function (response) {
         hideElement('loading');
         return response.text();
       }).then(function (data) {
