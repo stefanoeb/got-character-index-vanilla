@@ -1,0 +1,1 @@
+# got-character-index-vanilla
