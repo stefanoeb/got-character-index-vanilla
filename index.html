@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./dist/index.js"></script>
+    <title>GOT Search Index</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div class="wrapper">
+      <h1 class="light">Game of thrones character index</h1>
+      <h3 class="light">Search any character on the books</h3>
+      <div class="flex-center">
+        <div class="input-wrapper">
+          <input id="search" type="text" placeholder="Search..." oninput="onSearchChange(this.value)" />
+          <div id="error" class="error-banner">
+            <span style="color: rgb(255, 98, 0)">Type at least 4 characters</span>
+          </div>
+          <div id="suggestions" style="display: none;"></div>
+        </div>
+        <div class="icon-wrapper">
+          <image style="display: none;" id="loading" src="./icons/loading.svg" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

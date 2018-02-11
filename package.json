@@ -1,0 +1,26 @@
+{
+  "name": "got-character-index-vanilla",
+  "version": "1.0.0",
+  "description": "This project is a search client for [api.got.show](https://api.got.show) made with vanillaJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "build-watch": "babel src -d dist -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanoeb/got-character-index-vanilla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanoeb/got-character-index-vanilla/issues"
+  },
+  "homepage": "https://github.com/stefanoeb/got-character-index-vanilla#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
